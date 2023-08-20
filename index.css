@@ -740,5 +740,13 @@ margin-left: 3%;
 .instagram{
   position: absolute;
   margin-left: 85%;
-  margin-top: 15%;
+  margin-top: 10%;
+}
+.sendd{
+  position: absolute;
+  margin-left: 83%;
+  margin-top: 12%;
+  border-radius: 1%;
+  width: 7%;
+
 }
