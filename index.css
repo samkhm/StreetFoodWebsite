@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 .block-1{
@@ -220,7 +221,7 @@ body{
 .block-2{
     background-color:#FFFFFF;
     width: 100%;
-    height: 600px;
+    height: 450px;
     display: flex;
 }
 .people{
@@ -231,6 +232,7 @@ body{
     position: absolute;
     right:30% ;
     margin-top: 8%;
+    color: #FFD77C;
     
 }
 .together{
@@ -243,8 +245,75 @@ body{
     text-align: justify;
 }
 .block-3{
-    background-color: black;
-    width: 100%;
+    background-color: #EAF3E4;
+    width: 95%;
     height: 500px;
+  display: flex;
+  flex-direction: row;
+  left: 5%;
+  right: 5%;
 
+}
+.menu{
+    position: absolute;
+    right: 59%;
+    }
+    .menu2{
+        position: absolute;
+        right: 50%;
+        }
+    .menu #one{
+        color: black;
+        position: absolute;
+        
+        
+    }
+.menu2 #two{
+    color: #6CB840;
+    position: absolute;
+    
+    
+}
+
+.items{
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40%;
+}
+.item_1{
+    background-color: #FFFFFF;
+    width: 25%;
+    margin-top: 10%;
+    height: 70%;
+    border-radius: 0px 0px 30px 0px
+    position: absolute;
+
+}
+.item_1 h3{
+    
+    margin-left: 1%;
+}
+.text{
+    position: absolute;
+    margin-left: 2%;
+    width: 15%;
+    margin-left: 10%;
+    margin-top: -2%;
+}
+.text p{
+    text-align: center;
+}
+.cake-1{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    margin-left: -9%;
+    margin-top: -2%;
+
+    
+    
+    
 }
