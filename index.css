@@ -82,6 +82,19 @@ body{
     z-index: 2;
     display: flex;
  }
+ .star{
+    position: absolute;
+    left: 50%;
+    width: 10%;
+
+ }
+ .head{
+    position: absolute;
+    text-align: center;
+    top: 9%;
+    left: 51%;
+
+ }
  .nav1 {
     max-width: 960px;
     margin: 0 auto;
@@ -90,7 +103,7 @@ body{
    display: flex;
    position: absolute;
    justify-content: space-between;
-   left: 20%;
+   left: 15%;
     
  }
  ul{
@@ -148,7 +161,19 @@ body{
         justify-content: space-around;
         top: 30%;
         left: 20%;
+        width: fit-content;
+        
+        
     }  
+
+    #str{
+        color: #6CB840;
+
+    }
+    #fd{
+        color: #EAAD20;
+        
+    }
 
     .sub-title{
         position: absolute;
@@ -157,11 +182,13 @@ body{
         left: 20%;
 
     }
-    #str{
-        
+    #play{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, 
     }
+    
     .cont{
-        top: 45%;
+        top: 46%;
         left: 20%;
         position: absolute;
         width: 25%;
@@ -174,7 +201,21 @@ body{
 
 
     }
-
+  .btn{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+  }
+  button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #6CB840;
+    color: white;
+    font-weight: 300;
+    font-style: bold;
+    border-color: #6CB840;
+    
+  }
     
 .block-2{
     background-color:black;
