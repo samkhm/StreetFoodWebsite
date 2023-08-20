@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .block-1{
     background-color: #E5E5E5;
@@ -69,6 +70,70 @@ body{
     top: 50%;
     width: 15%;
 }
+.block-1 .overlay{
+    position: absolute;
+    overflow: auto;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+ }
+ .nav1 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+ }
+ ul{
+    text-align: right;
+ }
+ li{
+    display: inline-block;
+ }
+ .nav1>ul>li>a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.733);
+    }
+    .nav1>ul>li>a:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+        background: rgba(221, 109, 35, 0.678);
+        color: rgba(0, 35, 122, 0.7);
+        }  
+        
+   
+ .nav2 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+ }
+ ul{
+    text-align: left;
+ }
+ li{
+    display: inline-block;
+ }
+ nav>ul>li>a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.733);
+    }
+    nav>ul>li>a:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+        background: rgba(221, 109, 35, 0.678);
+        color: rgba(0, 35, 122, 0.7);
+        }      
 .block-2{
     background-color: yellow;
     width: 100%;
