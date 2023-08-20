@@ -531,7 +531,7 @@ button {
   .block-4{
     width: 95%;
     height: 500px;
-    background-color: blue;
+    background-color: #C9ECB5;
     display: flex;
   }
   .hot{
@@ -556,6 +556,7 @@ button {
   }
   .combo h3{
     text-transform: uppercase;
+    color: #6CB840;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -578,6 +579,7 @@ button {
   .fries h3{
     text-transform: capitalize;
     font-size: 25px;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   }
@@ -585,5 +587,22 @@ button {
   .essay{
     position: absolute;
     margin-left: 50%;
-    margin-top: 15%;
+    margin-top: 16%;
+    width: 30%;
+  }
+
+  .essay p{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: justify;
+     color: black;
+  }
+  .glass{
+    width: 50%;
+    height: 100%;
+    margin-top: -5%;
+  }
+  .big-cake{
+    margin-left: -30%;
+    height: 50%;
+    margin-top: 16%;
   }
