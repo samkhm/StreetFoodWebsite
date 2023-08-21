@@ -41,7 +41,7 @@ code .
 ## Screenshots
 Look sample of work being done in this picture
 
-![Webimage](https://photos.google.com/photo/AF1QipMSEeZKiN-Y8c--u3EFjq2BugepUbKbN6cqGdkR)
+![Webimage](Capture.PNG)
 
 ## Author Information
 This project was build and being mantained by
